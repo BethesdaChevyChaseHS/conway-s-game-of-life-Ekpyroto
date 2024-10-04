@@ -23,7 +23,7 @@ public class App {
         int cols = 100;
         int cellSize = 10;  // Size of each cell
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Grid grid = new Grid(rows, cols, cellSize, true, false);
+        Grid grid = new Grid(rows, cols, cellSize, false, false);
         frame.add(grid);
         frame.pack();
         // Make the window visible
